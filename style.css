@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700;800&display=swap');
+
+body {
+  display: block;
+  margin: 8px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  color: #white;
+  background-size: 100%;
+  background-color: #E3DFC8;
+}
+
+.header {
+  margin: 40px auto;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 20px;
+  color: black;
+}
+
+h3 {
+  color: #96BB7C;
+  padding-bottom: 10px;
+}
+
+p {
+  text-align: left;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: #F5F1DA;
+  color: #black;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.btn-green {
+  background-color: #96BB7C;
+  color: #F5F1DA;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-green:hover {
+  background-color: darkgrey;
+  color: white;
+}
+
+.footer {
+
+}
+
+.footer i {
+  padding: 10px;
+  color: darkgrey;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+
