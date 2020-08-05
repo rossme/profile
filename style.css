@@ -21,16 +21,18 @@ body {
 
 h1 {
   padding-top: 20px;
-  color: black;
+  color: #302F2F;
+  font-weight: 800;
 }
 
 h3 {
   color: #96BB7C;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 p {
   text-align: left;
+  color: #302F2F;
 }
 
 .container {
@@ -68,6 +70,7 @@ p {
 }
 
 .img-circle {
+  margin-bottom: 10px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 50%;
 }
@@ -76,10 +79,9 @@ a {
   text-decoration: none;
 }
 
-
 .btn-green {
   background-color: #96BB7C;
-  color: #F5F1DA;
+  color: white;
   padding: 15px 20px;
   border-radius: 4px;
 }
@@ -89,15 +91,25 @@ a {
 }
 
 .footer {
-
+  margin-top: 20px;
 }
 
 .footer i {
-  padding: 10px;
-  color: darkgrey;
+  color: #96BB7C;
   margin-left: 10px;
   margin-top: 10px;
 }
+
+.fa-facebook-f:hover {
+  color: darkgrey;
+}
+.fa-linkedin-in:hover {
+  color: darkgrey;
+}
+.fa-twitter:hover {
+  color: darkgrey;
+}
+
 
 
 
